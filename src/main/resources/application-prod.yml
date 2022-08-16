@@ -1,0 +1,16 @@
+spring:
+  #开启restful风格请求
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+  datasource:
+    url: 'jdbc:mysql://bj-cdb-i1lrq0b0.sql.tencentcdb.com:59746/yupi'
+    username: root
+    password: Andyfys666!
+    driver-class-name: com.mysql.jdbc.Driver
+
+ #设置session的过期时间，这里设置为了一天，单位为秒
+  session:
+    timeout: 86400
+
